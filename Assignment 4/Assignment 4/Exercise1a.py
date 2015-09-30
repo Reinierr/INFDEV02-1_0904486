@@ -1,5 +1,5 @@
-while True:
-    fahrenheit = int(input('Fahrenheit number: '))
+﻿while True:
+    fahrenheit = int(raw_input('Fahrenheit number: '))
     celsius = round((fahrenheit - 32) * 5/9, 2)
     print('Celsius: '+ str(celsius))
     kelvin = round(celsius + 273.15, 2)
