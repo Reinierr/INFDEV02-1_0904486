@@ -1,4 +1,4 @@
-while True:
+﻿while True:
     userInput1 = str(input('rock, paper or scissors player 1: '))
     userInput2 = str(input('rock, paper or scissors player 2: '))
     user1 = bool()
@@ -13,17 +13,17 @@ while True:
             user2 = True
     if user1 and user2:
         if userInput1 == 'rock' and userInput2 == 'paper':
-            print('Player 2 wins')
+            print('Player 2 wins because paper beats rock')
         elif userInput1 == 'rock' and userInput2 == 'scissors':
-            print('Player 1 wins')
+            print('Player 1 wins because rock smashes scissors')
         elif userInput1 == 'paper' and userInput2 == 'rock':
-            print('Player 1 wins')
+            print('Player 1 wins because paper beats rock')
         elif userInput1 == 'paper' and userInput2 == 'scissors':
-            print('Player 2 wins')
+            print('Player 2 wins because scissors cut paper')
         elif userInput1 == 'scissors' and userInput2 == 'rock':
-            print('Player 2 wins')
+            print('Player 2 wins because rock smashes scissors')
         elif userInput1 == 'scissors' and userInput2 == 'paper':
-            print('Player 1 wins')
+            print('Player 1 wins because scissors cut paper')
         else:
             print('No winner!')
         break
