@@ -1,6 +1,6 @@
 ﻿while True:
-    userInput1 = str(raw_input('rock, paper or scissors player 1: '))
-    userInput2 = str(raw_input('rock, paper or scissors player 2: '))
+    userInput1 = str(raw_input('rock, paper or scissors player 1: ')).lower()
+    userInput2 = str(raw_input('rock, paper or scissors player 2: ')).lower()
     user1 = bool()
     user2 = bool()
     if userInput1 != 'rock' and userInput1 != 'paper' and userInput1 != 'scissors':

@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>ef6e77f8-3e12-4557-b172-7a742bd93720</ProjectGuid>
+    <ProjectGuid>6ba2e347-866b-4e13-8a1c-4bb9c725bb05</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Exercise2.py</StartupFile>
+    <StartupFile>SquareH.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Assignment 4</Name>
-    <RootNamespace>Assignment 4</RootNamespace>
+    <Name>Assignment 6</Name>
+    <RootNamespace>Assignment 6</RootNamespace>
     <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
     <InterpreterVersion>2.7</InterpreterVersion>
   </PropertyGroup>
@@ -24,11 +24,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Exercise1a.py" />
-    <Compile Include="Exercise1c.py">
+    <Compile Include="Square.py" />
+    <Compile Include="SquareH.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Exercise2.py">
+    <Compile Include="Triangle.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
